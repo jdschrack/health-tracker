@@ -1,0 +1,12 @@
+export const THEME_ACTIONS = Object.freeze({
+    SET_MODE: 'SET_MODE',
+    CHANGE_THEME_COLORS: 'CHANGE_THEME_COLORS',
+    RESET_THEME: 'RESET_THEME'
+});
+
+export const AUTH_ACTIONS = Object.freeze({
+    LOG_IN: 'LOG_IN',
+    LOG_OUT: 'LOG_OUT',
+    AUTH_ERROR: 'AUTH_ERROR',
+    SET_REDIRECT_URL: 'SET_REDIRECT_URL'
+});
